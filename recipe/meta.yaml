@@ -1,6 +1,6 @@
 {% set name = "ijroi" %}
-{% set version = "0.3" %}
-{% set sha256 = "0fb7c3af824475f8b8330fd917ab02b969be74f5ead6198bb6928d7aebe3aab5" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "82c4dd9c6e7a13dae2f2cd8bb17020ef8dbbf60ad080a76d3a100d9989929e86" %}
 
 package:
   name: {{ name|lower }}
