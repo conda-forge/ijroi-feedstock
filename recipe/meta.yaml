@@ -34,11 +34,7 @@ about:
   home: https://github.com/tdsmith/ijroi
   license: MIT
   license_family: MIT
-  # Proposed inclusion in `MANIFEST.in` upstream.
-  #
-  # https://github.com/tdsmith/ijroi/pull/2
-  #
-  # license_file: COPYING
+  license_file: COPYING
   summary: Reads ImageJ ROIs.
   dev_url: https://github.com/tdsmith/ijroi
 
