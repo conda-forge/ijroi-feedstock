@@ -14,9 +14,7 @@ Summary: Reads ImageJ ROIs.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/ijroi-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/ijroi-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/ijroi-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/ijroi-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/ijroi-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/ijroi-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/ijroi-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/ijroi-feedstock)
 
 Current release info
 ====================
