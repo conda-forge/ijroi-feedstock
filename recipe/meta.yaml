@@ -1,6 +1,6 @@
 {% set name = "ijroi" %}
-{% set version = "0.3" %}
-{% set sha256 = "0fb7c3af824475f8b8330fd917ab02b969be74f5ead6198bb6928d7aebe3aab5" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "82c4dd9c6e7a13dae2f2cd8bb17020ef8dbbf60ad080a76d3a100d9989929e86" %}
 
 package:
   name: {{ name|lower }}
@@ -13,12 +13,13 @@ source:
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
 
   run:
     - python
@@ -33,11 +34,7 @@ about:
   home: https://github.com/tdsmith/ijroi
   license: MIT
   license_family: MIT
-  # Proposed inclusion in `MANIFEST.in` upstream.
-  #
-  # https://github.com/tdsmith/ijroi/pull/2
-  #
-  # license_file: COPYING
+  license_file: COPYING
   summary: Reads ImageJ ROIs.
   dev_url: https://github.com/tdsmith/ijroi
 
